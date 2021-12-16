@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "first-expo-app",
+    "name": "Weather Expo",
     "slug": "first-expo-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.github.bansokthen2.weatherapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.github.bansokthen2.weatherapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
