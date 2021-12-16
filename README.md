@@ -1,6 +1,8 @@
 # ExpoWeather
 v1.1.0
 
+Download [Sample APK](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40bansothen/expoweather-664b284d54e0463c8c52588833d5ccd5-signed.apk)
+
 #### Build using React Native & Expo
 
 1. Clone this project:
