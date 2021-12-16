@@ -2,15 +2,16 @@
 
 #### Build using React Native & Expo
 
-Clone this project:
+1. Clone this project:
+```https://github.com/bansothen2/weather-app.git```
 
-1. Install Depenencies
+2. Install Depenencies
 For NPM
 ```npm install```
 For Yarn
 ```yarn install```
 
-2. Run Test
+3. Run Test
 For NPM
 ```npm start```
 For Yarn
