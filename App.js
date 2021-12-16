@@ -6,7 +6,7 @@ import * as Location from "expo-location";
 
 import WeatherInfo from "./components/WeatherInfo";
 
-const WEATHER_API_KEY = "dc6d1531cc7cdbdb3b150ad21ee9a25a";
+const WEATHER_API_KEY = process.env.API_KEY;
 
 const BASE_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?";
 
