@@ -6,24 +6,16 @@ Clone this project:
 
 1. Install Depenencies
 For NPM
-```bash
-npm install```
+```npm install```
 For Yarn
-```bash
-yarn install```
+```yarn install```
 
 2. Run Test
 For NPM
-```bash
-npm start
-```
+```npm start```
 For Yarn
-```bash
-yarn start
-```
+```yarn start```
 or Expo command
-```bash
-expo start
-```
+```expo start```
 
 Testing on Device please follow this [article](https://medium.com/@webcore1/how-run-expo-for-react-native-on-your-ios-device-and-first-impressions-49882c38763d)
