@@ -19,6 +19,12 @@ For Yarn
 or Expo command
 ```expo start```
 
+### For API Key
+1. Create an account on [openweathermap.org](https://home.openweathermap.org/users/sign_up)
+2. Copy API Key [Link Here](https://home.openweathermap.org/api_keys)
+3. Rename env.example to .env
+4. Paste API key on variable API_KEY
+
 Testing on Device please follow this [article](https://medium.com/@webcore1/how-run-expo-for-react-native-on-your-ios-device-and-first-impressions-49882c38763d)
 
 Screenshot
