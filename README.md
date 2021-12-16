@@ -3,7 +3,7 @@
 #### Build using React Native & Expo
 
 1. Clone this project:
-```https://github.com/bansothen2/weather-app.git```
+```git clone https://github.com/bansothen2/weather-app.git```
 
 2. Install Depenencies
 For NPM
