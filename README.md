@@ -21,7 +21,7 @@ or Expo command
 
 ### For API Key
 1. Create an account on [openweathermap.org](https://home.openweathermap.org/users/sign_up)
-2. Copy API Key [Link Here](https://home.openweathermap.org/api_keys)
+2. Copy API key from this [Link Here](https://home.openweathermap.org/api_keys)
 3. Rename env.example to .env
 4. Paste API key on variable API_KEY
 
