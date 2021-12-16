@@ -10,6 +10,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-picker/picker": "2.1.0",
     "babel-plugin-inline-dotenv": "^1.6.0",
     "expo": "~43.0.2",
     "expo-location": "~13.0.4",

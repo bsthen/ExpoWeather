@@ -1,10 +1,15 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect, useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, ActivityIndicator } from "react-native";
 
 import * as Location from "expo-location";
 
 import WeatherInfo from "./components/WeatherInfo";
+import UnitsPicker from "./components/UnitsPicker";
+import ReloadIcon from "./components/ReloadIcon";
+import WeatherDetails from "./components/WeatherDetails";
+
+import { Colors } from "./utils/index";
 
 const WEATHER_API_KEY = process.env.API_KEY;
 
@@ -17,9 +22,11 @@ export default function App() {
 
   useEffect(() => {
     load();
-  }, []);
+  }, [unitsSystem]);
 
   async function load() {
+    setCurrectWeather(null);
+    setErrorMessage(null);
     try {
       let { status } = await Location.requestForegroundPermissionsAsync();
 
@@ -53,21 +60,35 @@ export default function App() {
   }
 
   if (currectWeather) {
-    const {
-      main: { temp },
-    } = currectWeather;
     return (
       <View style={styles.container}>
         <StatusBar style="auto" />
         <View style={styles.main}>
+          <UnitsPicker
+            unitsSystem={unitsSystem}
+            setUnitsSystem={setUnitsSystem}
+          />
+          <ReloadIcon load={load} />
           <WeatherInfo currectWeather={currectWeather} />
         </View>
+        <WeatherDetails
+          currectWeather={currectWeather}
+          unitsSystem={unitsSystem}
+        />
+      </View>
+    );
+  } else if (errorMessage) {
+    return (
+      <View style={styles.container}>
+        <ReloadIcon load={load} />
+        <Text style={{ textAlign: "center" }}>{errorMessage}</Text>
+        <StatusBar style="auto" />
       </View>
     );
   } else {
     return (
       <View style={styles.container}>
-        <Text>{errorMessage}</Text>
+        <ActivityIndicator size="large" color={Colors.PRIMARY_COLOR} />
         <StatusBar style="auto" />
       </View>
     );
