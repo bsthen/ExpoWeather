@@ -1,4 +1,5 @@
-# Weather App
+# ExpoWeather
+v1.1.0
 
 #### Build using React Native & Expo
 
