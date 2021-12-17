@@ -8,7 +8,7 @@ Download [Sample APK](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/an
 #### Build using React Native & Expo
 
 1. Clone this project:
-```git clone https://github.com/bansothen2/weather-app.git```
+```git clone https://github.com/bansothen2/ExpoWeather.git```
 
 2. Install Depenencies
 For NPM
