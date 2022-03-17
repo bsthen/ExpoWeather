@@ -6,7 +6,7 @@ Check out on [https://expo.dev/@bansothen/expoweather](https://expo.dev/@bansoth
 #### Build using React Native & Expo
 
 1. Clone this project:
-```git clone https://github.com/bansothen2/ExpoWeather.git```
+```git clone https://github.com/bsthen/ExpoWeather.git```
 
 2. Install Depenencies
 For NPM
