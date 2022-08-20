@@ -6,21 +6,33 @@ Check out on [https://expo.dev/@bansothen/expoweather](https://expo.dev/@bansoth
 #### Build using React Native & Expo
 
 1. Clone this project:
-```git clone https://github.com/bsthen/ExpoWeather.git```
+```sh
+git clone https://github.com/bsthen/ExpoWeather.git
+```
 
 2. Install Depenencies
 For NPM
-```npm install```
+```sh
+npm install
+```
 For Yarn
-```yarn install```
+```sh
+yarn install
+```
 
 3. Run Test
 For NPM
-```npm start```
+```sh
+npm start
+```
 For Yarn
-```yarn start```
+```sh
+yarn start
+```
 or Expo command
-```expo start```
+```sh
+expo start
+```
 
 ### For API Key
 1. Create an account on [openweathermap.org](https://home.openweathermap.org/users/sign_up)
