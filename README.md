@@ -7,7 +7,7 @@ Check out on [https://expo.dev/@bansothen/expoweather](https://expo.dev/@bansoth
 
 1. Clone this project:
 ```sh
-git clone https://github.com/bsthen/ExpoWeather.git
+git clone https://github.com/bsthen/ExpoWeather.git && cd ExpoWeather
 ```
 
 2. Install Depenencies
