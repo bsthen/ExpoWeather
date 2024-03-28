@@ -4,7 +4,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../utils/index";
 
 export default function ReloadIcon({ load }) {
-  const reloadIconName = Platform.OS == "ios" ? "ios-refresh" : "md-refresh";
+  const reloadIconName = Platform.OS == "ios" ? "ios-refresh" : "refresh";
   return (
     <View style={styles.reloadIcon}>
       <Ionicons
