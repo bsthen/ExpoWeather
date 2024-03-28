@@ -11,7 +11,7 @@ import WeatherDetails from "./components/WeatherDetails";
 
 import { Colors } from "./utils/index";
 
-const WEATHER_API_KEY = process.env.API_KEY;
+const WEATHER_API_KEY = process.env.EXPO_PUBLIC_API_KEY;
 
 const BASE_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?";
 
