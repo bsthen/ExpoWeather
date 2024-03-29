@@ -6,6 +6,14 @@
       },
       "ios": {
         "image": "latest"
+      },
+      "channel": "production"
+    },
+    "preview": {
+      "channel": "preview",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
       }
     }
   }
