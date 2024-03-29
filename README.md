@@ -42,7 +42,7 @@ expo start
 
 Testing on Device please follow this [article](https://medium.com/@webcore1/how-run-expo-for-react-native-on-your-ios-device-and-first-impressions-49882c38763d)
 
-Download [expoWeather.apk](https://nftstorage.link/ipfs/bafybeigdx4ktpywjfvxafphd47bl2s5ncgtdawm2nnpo2zlg7emvr5bwb4)
+Download [ExpoWeather.apk](https://github.com/bsthen/ExpoWeather/releases/download/v1.0.1/application-929d02c8-fc14-49e5-b446-c9de3efa4bb7.apk)
 
 Screenshot
 
