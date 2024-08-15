@@ -1,8 +1,6 @@
 # ExpoWeather
 v1.0.1
 
-Check out on [https://expo.dev/@bansothen/expoweather](https://expo.dev/@bansothen/expoweather)
-
 #### Build using React Native & Expo
 
 1. Clone this project:
